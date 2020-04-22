@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body{
+    font-family: arial, sans-serif !important;
     font-size: 13px;
+    margin: 0;
 }
 
 .nav-right{
@@ -9,12 +12,11 @@ body{
 }
 
 .nav-element{
-    font-size: 13px;
-    font: arial, sans-serif;
     color: #000;
     display: inline-block;
     opacity: 0.75;
     padding-left: 15px;
+    text-decoration: none;
 }
 
 .logo{
