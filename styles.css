@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body, html {
+* {
     overflow: auto;
     }
 
 body{
     font-family: arial, sans-serif !important;
     font-size: 13px;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .nav-right{
