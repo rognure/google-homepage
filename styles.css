@@ -11,18 +11,32 @@ body{
     padding: 0 !important;
 }
 
-.nav-right{
+.nav-left{
     position: absolute;
     margin: 7px 0 0 10px;
     display: block;
 }
 
+.nav-right{
+    float: right;
+    margin: 7px 0 0 10px;
+    display: block;
+}
+
 .nav-element{
-    color: #000;
     display: inline-block;
     opacity: 0.75;
     padding-left: 15px;
     text-decoration: none;
+}
+
+.square{
+    display: inline-block;
+    opacity: 0.75;
+    padding-left: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: #000;
 }
 
 .logo{
