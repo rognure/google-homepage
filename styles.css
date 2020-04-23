@@ -13,7 +13,7 @@ body{
 
 .nav-left{
     flex-basis: auto;
-    position: absolute;
+    float: left;
     margin: 7px 0 0 10px;
     display: block;
 }
