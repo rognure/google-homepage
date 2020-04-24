@@ -42,7 +42,6 @@ body{
 }
 
 .sign-in-bx{
-    flex-basis: auto;
     float: left;
     display: inline-flex;
     background-color: rgb(66, 133, 244);
