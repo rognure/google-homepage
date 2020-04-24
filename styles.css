@@ -19,10 +19,9 @@ body{
 }
 
 .nav-right{
-    flex-basis: auto;
+    display: inline-flex;
     float: right;
     margin: 7px 0 0 10px;
-    display: inline-flex;
 }
 
 .nav-element{
