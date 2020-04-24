@@ -15,14 +15,14 @@ body{
     flex-basis: auto;
     float: left;
     margin: 7px 0 0 10px;
-    display: block;
+    display: inline-flex;
 }
 
 .nav-right{
     flex-basis: auto;
     float: right;
     margin: 7px 0 0 10px;
-    display: block;
+    display: inline-flex;
 }
 
 .nav-element{
@@ -33,12 +33,53 @@ body{
 }
 
 .square{
-    display: inline-block;
-    opacity: 0.75;
-    padding-left: 15px;
+    display: block;
+    opacity: 0.55;
+    margin-left: 15px;
     height: 30px;
     width: 30px;
-    background-color: #000;
+    background-color: black;
+}
+
+.sign-in-bx{
+    flex-basis: auto;
+    float: right;
+    display: inline-flex;
+    background-color: rgb(66, 133, 244);
+    height: 30px;
+    width: 69.34px;
+    border-bottom-color: rgb(66, 133, 244);
+    border-bottom-style: solid;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(66, 133, 244);
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(66, 133, 244);
+    border-right-width: 1px; 
+    border-top-color: rgb(66, 133, 244);
+    border-top-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-width: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sign-in-txt{
+    display: inline-block;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 28px;
+    color: rgb(255,255,255);
+    font-weight: 700;
+    font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 .logo{
