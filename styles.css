@@ -33,7 +33,7 @@ body{
 }
 
 .square{
-    display: block;
+    display: inline-flex;
     opacity: 0.55;
     margin-left: 15px;
     height: 30px;
@@ -43,7 +43,7 @@ body{
 
 .sign-in-bx{
     flex-basis: auto;
-    float: right;
+    float: left;
     display: inline-flex;
     background-color: rgb(66, 133, 244);
     height: 30px;
