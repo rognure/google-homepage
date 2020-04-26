@@ -16,7 +16,8 @@ body{
 .nav-left{
     flex-basis: auto;
     float: left;
-    margin: 7px 0 0 10px;
+    margin: 5px 0 0 10px;
+    text-align: center;
     display: inline-flex;
 }
 
@@ -24,13 +25,17 @@ body{
     display: inline-flex;
     float: right;
     margin: 7px 30px 0 0;
+    text-align: center;
 }
 
 .nav-element{
     display: inline-block;
     opacity: 0.75;
     padding-left: 10px;
-    text-decoration: none;
+}
+
+.nav-element:hover{
+    text-decoration: underline;
 }
 
 .square{
