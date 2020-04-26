@@ -14,10 +14,8 @@ body{
 }
 
 .nav-left{
-    flex-basis: auto;
-    float: left;
+    position: absolute;
     margin: 7px 0 0 10px;
-    display: inline-flex;
 }
 
 .nav-right{
