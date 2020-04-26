@@ -11,17 +11,21 @@ body{
     padding: 0 !important;
 }
 
+.nav-div{
+    line-height: 28px;
+}
+
 .nav-left{
     flex-basis: auto;
     float: left;
-    margin: 7px 0 0 10px;
+    margin: 15px 0 0 10px;
     display: inline-flex;
 }
 
 .nav-right{
     display: inline-flex;
     float: right;
-    margin: 7px 0 0 10px;
+    margin: 15px 30px 0 0;
 }
 
 .nav-element{
