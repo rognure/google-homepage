@@ -28,6 +28,7 @@ body{
     padding-right: 30px;
     align-items: center;
     text-align: right;
+    margin: 10px 0 0 0;
 }
 
 .nav-element{
@@ -73,6 +74,7 @@ body{
     border-top-right-radius: 2px;
     border-top-width: 1px;
     margin-left: 15px;
+    font-weight: 700;
 }
 
 .sign-in-txt{
