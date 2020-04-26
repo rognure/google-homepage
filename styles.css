@@ -41,6 +41,7 @@ body{
 
 .nav-element:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .square{
