@@ -120,6 +120,20 @@ body{
     display: block;
 }
 
+.search-bar{
+    align-items: center;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+}
+
+.search-bar:hover{
+    box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
+}
+
 .loupe{
     background-image: url(https://image.flaticon.com/icons/svg/565/565590.svg);
     background-repeat: no-repeat;
@@ -131,17 +145,6 @@ body{
     line-height: 24px;
     height: 15px;
     width: 15px;
-}
-
-.search-bar{
-    align-items: center;
-    display: flex;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    border-radius: 24px;
-    height: 44px;
-    margin: 0 auto;
-    width: 482px;
 }
 
 .search-in-box{
