@@ -8,6 +8,7 @@ body{
     font-family: arial, sans-serif !important;
     font-size: 13px;
 }
+/*navbar*/
 
 .nav-div{
     line-height: 28px;
@@ -101,6 +102,8 @@ body{
     font-family: arial, sans-serif;
 }
 
+/*end navbar*/
+
 .logo{
     display: block;
     height: 432px;
@@ -115,4 +118,59 @@ body{
     margin-top: 47px;
     text-align: center;
     display: block;
+}
+
+.loupe{
+    background-image: url(https://image.flaticon.com/icons/svg/565/565590.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.40;
+    display: flex;
+    align-items: center;
+    padding-right: 35px;
+    line-height: 24px;
+    height: 15px;
+    width: 15px;
+}
+
+.search-bar{
+    align-items: center;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+.search-in-box{
+
+}
+
+.search-input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: 0,0,0,.87;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    font-size: 16px;
+    font: arial, sans-serif;
+    line-height: 34px;
+    height: 34px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    cursor: text;
+
+
+
+
 }
