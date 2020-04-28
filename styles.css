@@ -140,7 +140,6 @@ body{
     background-position: center;
     opacity: 0.40;
     display: flex;
-    align-items: center;
     padding-right: 35px;
     line-height: 24px;
     height: 15px;
@@ -148,6 +147,8 @@ body{
 }
 
 .search-in-box{
+    display: table;
+    width: 100%;
 
 }
 
@@ -159,11 +160,12 @@ body{
     color: 0,0,0,.87;
     word-wrap: break-word;
     outline: none;
-    display: flex;
+    display: table-cell;
     font-size: 16px;
     font: arial, sans-serif;
     line-height: 34px;
     height: 34px;
+    width: 100%;
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
@@ -172,8 +174,16 @@ body{
     text-shadow: none;
     text-align: start;
     cursor: text;
+}
 
-
-
-
+.mic{
+    background-image: url(https://image.flaticon.com/icons/svg/786/786459.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    float: right;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    padding-right: 35px;
 }
