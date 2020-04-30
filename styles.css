@@ -220,7 +220,10 @@ body{
     font-size: 14px;
     height: 36px;
     line-height: 27px;
-    margin-right: 16px;
+    padding: 0 16px 0 16px;
+    margin: 11px 4px 11px 4px;
+    min-width: 54px;
+    box-sizing: border-box;
 }
 
 /*end bottom*/
