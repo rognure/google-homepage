@@ -106,6 +106,14 @@ body{
 
 /*logo*/
 
+.logo-container{
+    display: flex;
+    height: 233px;
+    margin-top: 47px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .logo{
     display: block;
     height: 432px;
@@ -113,13 +121,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 108px;
-}
-
-.logo-container{
-    height: 233px;
-    margin-top: 47px;
-    text-align: center;
-    display: block;
 }
 
 /*end logo*/
@@ -197,6 +198,7 @@ body{
 /*end search bar*/
 
 /*bottom*/
+
 .botm-cont1{
     display: flex;
     justify-content: center;
@@ -224,6 +226,34 @@ body{
     margin: 11px 6px 11px 6px;
     min-width: 54px;
     box-sizing: border-box;
+}
+
+.botm-cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    margin: 12px 0px 32px 0px;
+}
+
+.botm-text{
+    font-family: arial, sans-serif;
+    color: rgb(26, 13, 171);
+    cursor: pointer;
+    font-size: small;
+    text-align: center;
+}
+
+a:visited{
+    color: #609;
+}
+
+.botm-cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    margin: 0px 0px 24px 0px;
 }
 
 /*end bottom*/
